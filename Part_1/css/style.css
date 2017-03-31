@@ -3,6 +3,8 @@ body {
 }
 
 .wrapper {
+    width: 600px;
+    margin: auto;
     position: relative;
     /*height: 100%;*/
     /*border: 1px solid blue;*/
@@ -10,7 +12,6 @@ body {
 
 .search-form {
     width: 500px;
-    margin: auto;
     text-align: center;
 }
 
@@ -44,6 +45,11 @@ body {
     width: 510px;
     height: 40px;
     margin: 20px auto;
+    padding: 0 10px;
+    font: 18px Arial;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 7px 1px rgba(209,209,209,1);
 }
 
 .search-form_button {
@@ -51,6 +57,7 @@ body {
     height: 45px;
     font: 16px Arial;
     background-color: #eee;
+    border-radius: 3px;
     color: #777;
     cursor: pointer;
     border: none;
