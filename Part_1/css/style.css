@@ -5,14 +5,15 @@ body {
 .wrapper {
     width: 600px;
     margin: auto;
-    position: relative;
     /*height: 100%;*/
     /*border: 1px solid blue;*/
 }
 
 .search-form {
     width: 500px;
+    margin: auto;
     text-align: center;
+    /*background-color: #f6f6f6;*/
 }
 
 /*.search-form_name {*/
@@ -36,8 +37,8 @@ body {
 }
 
 .search-form__text {
-    font: 74px/74px Arial;
-    font-weight: 600;
+    font: 74px Arial;
+    font-weight: bold;
     letter-spacing: -5px;
 }
 
@@ -68,5 +69,31 @@ body {
     color: #000;
     border: 1px solid #c4c4c4;
 }
+
+.showResult {
+    margin-top: 15px;
+}
+
+.post {
+    margin: 20px 0;
+}
+
+.post_title {
+    font: 22px Arial;
+    text-decoration: none;
+    color: #1a4ab5;
+}
+
+.post_url {
+    font: 16px Arial;
+    color: #317346;
+    margin: 5px 0;
+}
+
+.post_text {
+    font: 14px Arial;
+}
+
+
 
 
